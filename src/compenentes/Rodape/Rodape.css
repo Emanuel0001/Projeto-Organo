@@ -1,0 +1,34 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #6278F7;
+    box-sizing: border-box;
+    background-image: url('/public/imagens/fundo.png'); /* Replace 'path/to/your/image.jpg' with the actual path to your image file */
+    background-size: cover; /* This property ensures that the background image covers the entire element */
+    background-position: center; /* This property centers the background image within the element */
+    background-repeat: no-repeat; 
+    height: 256px;
+}
+
+.footer img {
+    max-width: 100%;
+}
+
+.redes-sociais ul li{
+    display: inline-block;
+    
+}
+
+.redes-sociais img {
+    display: inline-block;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 32px;
+}
+
+.titulo h3 {
+    color: #f2f2f2;
+    font-size: 16px;
+}
